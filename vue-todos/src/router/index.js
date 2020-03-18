@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Todos from '@/components/Todos'
 import AddTodo from '@/components/AddTodo'
+import Item from '@/components/Item'
 
 Vue.use(Router)
 
@@ -17,6 +18,16 @@ export default new Router({
 			path: '/todos',
 			name: 'Todos',
 			component: Todos
+    },
+    {
+			path: '/add_todo',
+			name: 'AddTodo',
+			component: AddTodo
+    },
+    {
+			path: '/item',
+			name: 'Item',
+			component: Item
     }
   ]
 })
