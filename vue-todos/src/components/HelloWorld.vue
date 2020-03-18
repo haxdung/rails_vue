@@ -4,9 +4,7 @@
     <h2>Essential Links</h2>
     <ul>
       <li><router-link to="/todos">Todos</router-link></li>
-      
     </ul>
-    
   </div>
 </template>
 
